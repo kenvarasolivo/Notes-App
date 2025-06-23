@@ -1,3 +1,4 @@
+/* style.css */
 *{
     margin: 0;
     padding: 0;
@@ -64,3 +65,33 @@
     right: 15px;
     cursor: pointer;
 }
+
+/* Mobile view */
+@media (max-width: 600px) {
+    .container {
+      padding-left: 5%;
+      padding-top: 10%;
+    }
+  
+    .container h1 {
+      font-size: 28px;
+    }
+  
+    .container button {
+      font-size: 14px;
+      padding: 12px 20px;
+    }
+  
+    .input-box {
+      max-width: 90vw;
+      min-height: 120px;
+      font-size: 16px;
+      padding: 15px;
+    }
+  
+    .input-box img {
+      width: 20px;
+      bottom: 10px;
+      right: 10px;
+    }
+  }
